@@ -18,7 +18,8 @@ class Example(QWidget):
         QToolTip.setFont(QFont('SansSerif', 10))
         self.setToolTip('This is a <b>QWidget</b> widget')
 
-        btn = QPushButton('Button', self)
+        btn = QPushButton('Quit', self)
+        btn.clicked.connect(QApplication.instance().quit)
         btn.setToolTip('This is a <b>QpushButton</b> widget')
         btn.resize(btn.sizeHint())
         btn.move(50, 50)
