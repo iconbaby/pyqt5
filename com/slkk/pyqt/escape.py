@@ -27,6 +27,7 @@ class Example(QWidget):
     # def keyPressEvent(self, e):
     #     if e.key() == Qt.Key_Escape:
     #         self.close()
+
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_Escape:
             self.close()
