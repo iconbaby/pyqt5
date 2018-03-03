@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf0b245-7aff-4042-8161-e847d869c77a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/com/slkk/pyqt/QTabWdgit.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/com/slkk/pyqt/review.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/slkk/pyqt/sigslot.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="review.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="review.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/review.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
@@ -85,11 +84,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sigslot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/sigslot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#42#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="QtWidgets.pyi" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/PyQt5/QtWidgets.pyi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="1311" column="8" lean-forward="false" selection-start-line="1311" selection-start-column="8" selection-end-line="1311" selection-end-column="8" />
+            <state relative-caret-position="178">
+              <caret line="5593" column="20" lean-forward="true" selection-start-line="5593" selection-start-column="20" selection-end-line="5593" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -99,16 +110,6 @@
         <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/simple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -147,6 +148,7 @@
         <option value="$PROJECT_DIR$/com/slkk/pyqt/QgridLayout.py" />
         <option value="$PROJECT_DIR$/com/slkk/pyqt/QTabWdgit.py" />
         <option value="$PROJECT_DIR$/com/slkk/pyqt/review.py" />
+        <option value="$PROJECT_DIR$/com/slkk/pyqt/sigslot.py" />
       </list>
     </option>
   </component>
@@ -222,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.review">
+  <component name="RunManager" selected="Python.sigslot">
     <configuration name="QTabWdgit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,24 +256,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyqt2" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/pyqt/QgridLayout.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="absolute" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/slkk/pyqt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyqt2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/pyqt/absolute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,20 +297,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="sigslot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/slkk/pyqt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyqt2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/pyqt/sigslot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.absolute" />
-      <item index="1" class="java.lang.String" itemvalue="Python.boxlayout" />
-      <item index="2" class="java.lang.String" itemvalue="Python.QgridLayout" />
-      <item index="3" class="java.lang.String" itemvalue="Python.QTabWdgit" />
-      <item index="4" class="java.lang.String" itemvalue="Python.review" />
+      <item index="0" class="java.lang.String" itemvalue="Python.boxlayout" />
+      <item index="1" class="java.lang.String" itemvalue="Python.QgridLayout" />
+      <item index="2" class="java.lang.String" itemvalue="Python.QTabWdgit" />
+      <item index="3" class="java.lang.String" itemvalue="Python.review" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sigslot" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.review" />
-        <item index="1" class="java.lang.String" itemvalue="Python.QTabWdgit" />
-        <item index="2" class="java.lang.String" itemvalue="Python.QgridLayout" />
-        <item index="3" class="java.lang.String" itemvalue="Python.boxlayout" />
-        <item index="4" class="java.lang.String" itemvalue="Python.absolute" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sigslot" />
+        <item index="1" class="java.lang.String" itemvalue="Python.review" />
+        <item index="2" class="java.lang.String" itemvalue="Python.QTabWdgit" />
+        <item index="3" class="java.lang.String" itemvalue="Python.QgridLayout" />
+        <item index="4" class="java.lang.String" itemvalue="Python.boxlayout" />
       </list>
     </recent_temporary>
   </component>
@@ -434,14 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/PyQt5/QtWidgets.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="1311" column="8" lean-forward="false" selection-start-line="1311" selection-start-column="8" selection-end-line="1311" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/QgridLayout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -486,6 +480,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <element signature="e#42#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/PyQt5/QtWidgets.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="5593" column="20" lean-forward="true" selection-start-line="5593" selection-start-column="20" selection-end-line="5593" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/sigslot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#42#52#0" expanded="true" />
           </folding>
