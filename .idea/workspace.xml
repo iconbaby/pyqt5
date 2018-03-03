@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf0b245-7aff-4042-8161-e847d869c77a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/com/slkk/pyqt/mouse_event.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com/slkk/pyqt/event_source.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/com/slkk/pyqt/escape.py" afterPath="$PROJECT_DIR$/com/slkk/pyqt/escape.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="messageBox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/messageBox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="absolute.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/absolute.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +98,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mouse_event.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mouse_event.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/mouse_event.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="95">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#42#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_source.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/event_source.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
                 <element signature="e#42#52#0" expanded="true" />
               </folding>
@@ -161,6 +162,7 @@
         <option value="$PROJECT_DIR$/com/slkk/pyqt/sigslot.py" />
         <option value="$PROJECT_DIR$/com/slkk/pyqt/escape.py" />
         <option value="$PROJECT_DIR$/com/slkk/pyqt/mouse_event.py" />
+        <option value="$PROJECT_DIR$/com/slkk/pyqt/event_source.py" />
       </list>
     </option>
   </component>
@@ -236,25 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mouse_event">
-    <configuration name="QTabWdgit" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/slkk/pyqt" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyqt2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/pyqt/QTabWdgit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.event_source">
     <configuration name="escape" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,6 +252,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyqt2" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/pyqt/escape.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="event_source" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/slkk/pyqt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyqt2" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/slkk/pyqt/event_source.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,19 +330,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.QTabWdgit" />
-      <item index="1" class="java.lang.String" itemvalue="Python.review" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sigslot" />
-      <item index="3" class="java.lang.String" itemvalue="Python.escape" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mouse_event" />
+      <item index="0" class="java.lang.String" itemvalue="Python.review" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sigslot" />
+      <item index="2" class="java.lang.String" itemvalue="Python.escape" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mouse_event" />
+      <item index="4" class="java.lang.String" itemvalue="Python.event_source" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mouse_event" />
-        <item index="1" class="java.lang.String" itemvalue="Python.escape" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sigslot" />
-        <item index="3" class="java.lang.String" itemvalue="Python.review" />
-        <item index="4" class="java.lang.String" itemvalue="Python.QTabWdgit" />
+        <item index="0" class="java.lang.String" itemvalue="Python.event_source" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mouse_event" />
+        <item index="2" class="java.lang.String" itemvalue="Python.escape" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sigslot" />
+        <item index="4" class="java.lang.String" itemvalue="Python.review" />
       </list>
     </recent_temporary>
   </component>
@@ -508,16 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/absolute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/PyQt5/QtWidgets.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -528,8 +520,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/mouse_event.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="95">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/absolute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/slkk/pyqt/event_source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
             <element signature="e#42#52#0" expanded="true" />
           </folding>
